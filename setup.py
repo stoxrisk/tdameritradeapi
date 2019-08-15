@@ -8,7 +8,7 @@ setup(
     name='tdameritradeapi',
     version='1.5',
     description="A tool used to interact with TD Ameritrade's API",
-    long_description=description,
+    long_description="na yet",
     url='https://github.com/JECSand/yahoofinancials',
     download_url='https://github.com/stoxrisk/tdameritradeapi',
     author='Andrew Chuba',
