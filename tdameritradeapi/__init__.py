@@ -2,7 +2,7 @@ import requests
 
 class TDAmeritradeAPI:
 	def __init__(self, api_key):
-		self.apikey = apikey
+		self.apikey = api_key
 
 	def getPrices(self, symbol, freqType, freqNum, endDate, startDate, extendedHours=True):
 		td_ep = "https://api.tdameritrade.com/v1/marketdata/%s/pricehistory" % symbol
