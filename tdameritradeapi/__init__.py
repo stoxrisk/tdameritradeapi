@@ -16,4 +16,4 @@ class TDAmeritradeAPI:
 			'needExtendedHoursData': extendedHours
 		}
 		response = requests.request(method="GET", url = td_ep, params = history_params)
-		return response
+		return response 
