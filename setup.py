@@ -6,16 +6,16 @@ except ImportError:
 
 setup(
     name='tdameritradeapi',
-    version='1.5',
+    version='0.1',
     description="A tool used to interact with TD Ameritrade's API",
     long_description="na yet",
-    url='https://github.com/JECSand/yahoofinancials',
+    url='https://github.com/stoxrisk/tdameritradeapi',
     download_url='https://github.com/stoxrisk/tdameritradeapi',
     author='Andrew Chuba',
     author_email='andrew.chuba@live.com',
     license='MIT',
     keywords=['finance data', 'stocks', 'derivatives', 'cryptocurrencies', 'currencies', 'forex', 'td ameritrade'],
-    packages=['yahoofinancials'],
+    packages=['tdameritradeapi'],
     install_requires=[
         "requests"
     ],
